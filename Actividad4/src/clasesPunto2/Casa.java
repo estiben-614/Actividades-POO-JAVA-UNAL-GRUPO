@@ -9,4 +9,10 @@ public class Casa extends InmuebleVivienda{
         this.cantidadPisos = cantidadPisos;
     }
     
+    @Override
+    public void imprimir() {
+        super.imprimir();
+        System.out.println("Número de pisos = " + this.cantidadPisos);
+     }
+    
 }

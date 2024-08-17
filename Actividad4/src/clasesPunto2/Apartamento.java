@@ -7,4 +7,8 @@ public class Apartamento extends InmuebleVivienda {
         super(numeroHabitaciones, numeroBaños, identificadorInmobiliario, area, direccion);
     }
     
+    @Override
+    public void imprimir(){
+        super.imprimir();
+    }
 }

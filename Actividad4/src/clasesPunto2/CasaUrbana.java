@@ -7,4 +7,8 @@ public class CasaUrbana extends Casa {
         super(cantidadPisos, numeroHabitaciones, numeroBaños, identificadorInmobiliario, area, direccion);
     }
     
+    @Override
+    public void imprimir(){
+        super.imprimir();
+    }
 }

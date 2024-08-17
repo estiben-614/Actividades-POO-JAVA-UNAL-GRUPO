@@ -10,6 +10,11 @@ public class InmuebleVivienda extends Inmueble {
         this.numeroHabitaciones = numeroHabitaciones;
         this.numeroBaños = numeroBaños;
     }
-    
+    @Override
+    public void imprimir() {
+        super.imprimir();
+        System.out.println("Número de habitaciones = " + this.numeroHabitaciones);
+        System.out.println("Número de baños = " + this.numeroBaños);
+        }
     
 }
